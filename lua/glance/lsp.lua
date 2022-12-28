@@ -69,6 +69,10 @@ M.methods = {
     label = 'references',
     lsp_method = 'textDocument/references',
   },
+  incoming_calls = {
+    label = 'incoming calls',
+    lsp_method = 'callHierarchy/incomingCalls',
+  },
 }
 
 for key, method in pairs(M.methods) do
